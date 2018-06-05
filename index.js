@@ -9,8 +9,8 @@ function happyHolidays()
 // happy holidays function 1 overload for name
 function happyHolidaysTo(name)
 {
-  var string = "Happy holidays, "
-  return string + name
+  var string = 
+  return "Happy holidays, "string + name
 }
 
 // happy holiday function 2 overloads for holiday, name
