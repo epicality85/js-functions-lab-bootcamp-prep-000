@@ -1,21 +1,25 @@
 // write your code below!
 
-// function to return happy Holidays
+// function to return happy Holidays no params
 function happyHolidays()
 {
   return "Happy holidays!"
 }
 
-// happy holidays function 1 overload for name
+// happy holidays function 1 param for name
 function happyHolidaysTo(name)
 {
-  var string = 
-  return "Happy holidays, "string + name
+  return `Happy holidays, ${name}!`
 }
 
-// happy holiday function 2 overloads for holiday, name
+// happy holiday function 2 params for holiday, name
 function happyHolidayTo(holiday, name)
 {
-  var string = ``
-  return string
+  return `Happy ${holiday}, ${name}!`
+}
+
+// holiday countdown function accepts 2 params
+function holidayCountdown(days, holiday)
+{
+  return `It's ${days} days until ${holiday}!`
 }
