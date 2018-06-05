@@ -19,7 +19,7 @@ function happyHolidayTo(holiday, name)
 }
 
 // holiday countdown function accepts 2 params
-function holidayCountdown(days, holiday)
+function holidayCountdown(holidaydays, )
 {
   return `It's ${days} days until ${holiday}!`
 }
